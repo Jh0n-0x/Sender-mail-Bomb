@@ -27,7 +27,7 @@ def enviar_msg():
 	num = 1
 	while(num <= bomber):
 		send = server.sendmail(email, para, mensagem)
-		$num++
+		$num+1
 
 	if(send):
 		lb4["text"]='Nao Enviado'
